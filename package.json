@@ -14,5 +14,14 @@
     "express": "^4.17.1",
     "moment": "^2.27.0",
     "mongoose": "^5.9.23"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melissadaska/pizza-hunt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/melissadaska/pizza-hunt/issues"
+  },
+  "homepage": "https://github.com/melissadaska/pizza-hunt#readme"
 }
