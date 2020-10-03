@@ -10,7 +10,9 @@ app.use(express.static('public'));
 
 app.use(require('./routes'));
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/pizza-hunt', {
+const MONGODB_URI = 'mongodb+srv://merrychristmas:merrychristmas@pizzahunt.zgxmh.mongodb.net/pizzahunt?retryWrites=true&w=majority'
+
+mongoose.connect(MONGODB_URI || 'mongodb://localhost/pizza-hunt', {
   useFindAndModify: false,
   useNewUrlParser: true,
   useUnifiedTopology: true
