@@ -7,8 +7,8 @@
 </p>  
 
 <p align='center'>
-    <img src="/assets/allpizzas.png" alt="help1"/>
-    <img src="/assets/createpizza.png" alt="help2"/>
+    <img src="./public/assets/allpizzas.png" alt="all pizza"/>
+    <img src="./public/assets/createpizza.png" alt="create pizza"/>
 </p>  
 
 ## Table of Contents
